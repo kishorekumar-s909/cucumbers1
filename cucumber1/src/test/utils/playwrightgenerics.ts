@@ -125,7 +125,7 @@ export class playwrightgenerics{
             await dialog.dismiss()
         })
     }
-    async getcurrenturl(page:Page):promise<string>
+    async getcurrenturl(page:Page):Promise<string>
     {
         let url=page.url()
         return url

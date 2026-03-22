@@ -4,70 +4,69 @@
     "elements": [
       {
         "description": "",
-        "id": "login-page-testcases;login-with-invalid-userdetails",
+        "id": "login-page-testcases;login-with-valid-userdetails",
         "keyword": "Scenario",
-        "line": 10,
-        "name": "Login with InValid userDetails",
+        "line": 3,
+        "name": "Login with Valid userDetails",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 701030500
+              "duration": 1116543200
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 12,
+            "line": 5,
             "name": "I goto login page \"https://playground.bsparksoftwaretechnologies.com/login\"",
             "match": {
               "location": "src\\test\\stepsDefinitions\\login.step.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 9197883900
+              "duration": 575700499
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
-            "name": "I enter username \"xyz@gmail.com\" and Password \"xyz@123\"",
+            "line": 6,
+            "name": "I enter username \"jhon1@gmail.com\" and Password \"test@123\"",
             "match": {
               "location": "src\\test\\stepsDefinitions\\login.step.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 168786600
+              "duration": 228152500
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 14,
+            "line": 7,
             "name": "I Click login button",
             "match": {
-              "location": "src\\test\\stepsDefinitions\\login.step.ts:24"
+              "location": "src\\test\\stepsDefinitions\\login.step.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 1190083099
+              "duration": 1164301099
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
-            "name": "I Validate error message \"Invalid email or password\"",
+            "line": 8,
+            "name": "I Validate home page title \"Dashboard\"",
             "match": {
-              "location": "src\\test\\stepsDefinitions\\login.step.ts:35"
+              "location": "src\\test\\stepsDefinitions\\login.step.ts:34"
             },
             "result": {
-              "status": "failed",
-              "duration": 6200600,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m{\"_frame\": {\"_guid\": \"frame@61add8e6de73ed2b2af0a881b45dd0cb\", \"_type\": \"Frame\"}, \"_selector\": \".error\", Symbol(nodejs.util.inspect.custom): [Function anonymous]}\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\admin\\Desktop\\pommodel\\cucumber1\\node_modules\\playwright\\lib\\matchers\\expect.js:213:24)\n    at World.<anonymous> (file:///C:/Users/admin/Desktop/pommodel/cucumber1/src/test/stepsDefinitions/login.step.ts:37:17)"
+              "status": "passed",
+              "duration": 333687599
             }
           },
           {
@@ -75,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 363758400
+              "duration": 390525800
             }
           }
         ],
