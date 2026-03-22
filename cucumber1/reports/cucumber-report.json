@@ -1,0 +1,93 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-page-testcases;login-with-invalid-userdetails",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login with InValid userDetails",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 701030500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I goto login page \"https://playground.bsparksoftwaretechnologies.com/login\"",
+            "match": {
+              "location": "src\\test\\stepsDefinitions\\login.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9197883900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I enter username \"xyz@gmail.com\" and Password \"xyz@123\"",
+            "match": {
+              "location": "src\\test\\stepsDefinitions\\login.step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168786600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I Click login button",
+            "match": {
+              "location": "src\\test\\stepsDefinitions\\login.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1190083099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I Validate error message \"Invalid email or password\"",
+            "match": {
+              "location": "src\\test\\stepsDefinitions\\login.step.ts:35"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6200600,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m{\"_frame\": {\"_guid\": \"frame@61add8e6de73ed2b2af0a881b45dd0cb\", \"_type\": \"Frame\"}, \"_selector\": \".error\", Symbol(nodejs.util.inspect.custom): [Function anonymous]}\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\admin\\Desktop\\pommodel\\cucumber1\\node_modules\\playwright\\lib\\matchers\\expect.js:213:24)\n    at World.<anonymous> (file:///C:/Users/admin/Desktop/pommodel/cucumber1/src/test/stepsDefinitions/login.step.ts:37:17)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 363758400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page-testcases",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login page testcases",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]
